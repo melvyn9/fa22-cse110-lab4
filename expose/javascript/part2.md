@@ -4,7 +4,7 @@ Q2) It will console log 150 because we are initializing discountedPrice as a var
 
 Q3) It will console log 150 because we are initializing finalPrice as a var and assigning it the value 0 at first. The price changes to 50 on the first iteration, 100 on the second iteration and 150 on the third iteration.
 
-Q4) This function will return [50, 100, 150]. It returns this because each time we are calculating the new finalPrice, we are pushing it to the discounted array which will be returned at the end of the function. We also declared discounted as a var so it has no block scope.
+Q4) This function will return [50, 100, 150] and also because discounted is declared using var where it has no block scope. It returns this because each time we are calculating the new finalPrice, we are pushing it to the discounted array which will be returned at the end of the function. We also declared discounted as a var so it has no block scope.
 
 Q5) There will be an error because i is declared using let that is inside the scope of the for loop. Since we want to console log it outside the for loop, it will cause an error.
 
@@ -28,13 +28,13 @@ D) student['Favorite Teacher'].name;
 E) student.courseLoad[0];
 
 Q13)
-A) '32' because JavaScript does not know how to add a string with a number. Therefore, it treats 2 as a string and concactanates '3' and '2' to get 32.
+A) '32' because JavaScript does not know how to add a string with a number. Therefore, it treats 2 as a string and concactanates '3' and '2' to get '32'.
 B) 1 because JavaScript does not know how to subtract an integer from a string, the string '3' is converted to an integer 3 and then performs a subtraction of 2 from it to obtain 1.
 C) 3 because null maps to 0 and 3 + 0 = 3
 D) '3null' because '3' is a string and since there is a +, it concactanates 3 with null to form '3null'.
 E) 4 because true maps to 1 and 1 + 3 = 4.
 F) 0 because false maps to 0 and null maps to 0 so 0 + 0 = 0.
-G) 3undefined because '3' is a string and since there is a +, ut concactanates 3 with undefined to form '3undefined'.
+G) 3undefined because '3' is a string and since there is a +, it concactanates 3 with undefined to form '3undefined'.
 H) NaN because JavaScript does not know how to subtract NaN from a string. Therefore, it converts '3' to an integer and tries to subtract NaN from it. However, this is not possible since NaN does not represent a real number and hence just returns NaN.
 
 Q14)

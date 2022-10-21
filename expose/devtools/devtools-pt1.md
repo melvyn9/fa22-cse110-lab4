@@ -1,12 +1,12 @@
 Q1) citylots.json
 
-Q2) expose.js:4
+Q2) expose.js
 
 Q3) 779kB
 
 Q4) 525 ms
 
-Q5) Mozilla/5.0
+Q5) Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Mobile Safari/537.36
 
 Q6) GitHub.com
 
